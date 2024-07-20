@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
+import image from '@astrojs/image';
 
 // https://astro.build/config
 export default defineConfig({
@@ -46,6 +47,10 @@ export default defineConfig({
     }),
     tailwind({
       applyBaseStyles: false,
+    }),
+    image({
+      serviceEntryPoint: '@astrojs/image/sharp',
+      quality: 100,
     }),
   ],
 });
