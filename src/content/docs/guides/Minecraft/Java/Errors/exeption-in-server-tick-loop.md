@@ -1,13 +1,13 @@
 ---
-title: Minecraft Java Session Lock Fix
-description: A comprehensive guide to fix "Failed to check session lock" erorr.
+title: Minecraft Java Exception In Tick Loop Fix
+description: A comprehensive guide to fixing the exception in tick loop error.
 ---
 
-A comprehensive guide to fix "Failed to check session lock" erorr.
+A comprehensive guide to fixing the exception in tick loop error.
 
 ## Introduction
 
-This guide will walk you through the process of fixing the "net.Minecraft.server.WorldConlictException: Failed to check session lock, aborting." error.
+This guide will walk you through the process of fixing the "java.lang.NullPointerException: Exception in server tick loop at net.minecraft.server.v1_7_R3.JsonList.load(JsonList.java:171)" error.
 
 ## Prerequisites
 
@@ -35,10 +35,8 @@ This guide will walk you through the process of fixing the "net.Minecraft.server
 ### 4. Access the File Manager
 
 1. In the server management interface, navigate to the **File** tab.
-2. Locate the `world` folder in the root directory of your server files.
-![worlds](../../../../../../assets/errors/worlds.png)
-3. Delete the `session.lock` file
-![alt text](../../../../../../assets/errors/sessionlock.png)
+3. Delete the `ops.josn`, `usercache.yml`, and `whitelist.json` files
+![alt text](../../../../../../assets/errors/ops-usercache-whitelist.png)
 ### 5. Start your server
 
 1. After making the necessary changes
@@ -47,4 +45,4 @@ This guide will walk you through the process of fixing the "net.Minecraft.server
 
 ## Conclusion
 
-By fixing the `session.lock` crash, you can now start your server without a crash.
+By fixing the "java.lang.NullPointerException: Exception in server tick loop at net.minecraft.server.v1_7_R3.JsonList.load(JsonList.java:171)" crash, you can now start your server without a crash.
