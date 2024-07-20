@@ -163,9 +163,9 @@ If you are not sure you want an awesome docs site, think twice before using [Sta
 :::danger
 Your users may be more productive and find your product easier to use thanks to helpful Starlight features.
 
-- Clear navigation
-- User-configurable colour theme
-- [i18n support](/guides/i18n/)
+-   Clear navigation
+-   User-configurable colour theme
+-   [i18n support](/guides/i18n/)
 
 :::
 
@@ -177,9 +177,9 @@ If you are not sure you want an awesome docs site, think twice before using [Sta
 :::danger
 Your users may be more productive and find your product easier to use thanks to helpful Starlight features.
 
-- Clear navigation
-- User-configurable colour theme
-- [i18n support](/guides/i18n/)
+-   Clear navigation
+-   User-configurable colour theme
+-   [i18n support](/guides/i18n/)
 
 :::
 ```
@@ -203,8 +203,8 @@ A code block is indicated by a block with three backticks <code>```</code> at th
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l);
-  return true;
+    dateformat.i18n = require("./lang/" + l);
+    return true;
 };
 ```
 
@@ -212,8 +212,8 @@ var fun = function lang(l) {
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l);
-  return true;
+    dateformat.i18n = require("./lang/" + l);
+    return true;
 };
 ```
 ````
@@ -237,83 +237,83 @@ Many of these can be combined, for highly illustrative code samples.
 Please explore the [Expressive Code documentation](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-text-markers/README.md) for the extensive options available.
 Some of the most common examples are shown below:
 
-- [Mark entire lines & line ranges using the `{ }` marker](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-text-markers/README.md#marking-entire-lines--line-ranges):
+-   [Mark entire lines & line ranges using the `{ }` marker](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-text-markers/README.md#marking-entire-lines--line-ranges):
 
-  ```js {2-3}
-  function demo() {
-    // This line (#2) and the next one are highlighted
-    return 'This is line #3 of this snippet';
-  }
-  ```
-
-  ````md
-  ```js {2-3}
-  function demo() {
-    // This line (#2) and the next one are highlighted
-    return 'This is line #3 of this snippet';
-  }
-  ```
-  ````
-
-- [Mark selections of text using the `" "` marker or regular expressions](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-text-markers/README.md#marking-individual-text-inside-lines):
-
-  ```js "Individual terms" /Even.*supported/
-  // Individual terms can be highlighted, too
-  function demo() {
-    return 'Even regular expressions are supported';
-  }
-  ```
-
-  ````md
-  ```js "Individual terms" /Even.*supported/
-  // Individual terms can be highlighted, too
-  function demo() {
-    return 'Even regular expressions are supported';
-  }
-  ```
-  ````
-
-- [Mark text or lines as inserted or deleted with `ins` or `del`](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-text-markers/README.md#selecting-marker-types-mark-ins-del):
-
-  ```js "return true;" ins="inserted" del="deleted"
-  function demo() {
-    console.log('These are inserted and deleted marker types');
-    // The return statement uses the default marker type
-    return true;
-  }
-  ```
-
-  ````md
-  ```js "return true;" ins="inserted" del="deleted"
-  function demo() {
-    console.log('These are inserted and deleted marker types');
-    // The return statement uses the default marker type
-    return true;
-  }
-  ```
-  ````
-
-- [Combine syntax highlighting with `diff`-like syntax](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-text-markers/README.md#combining-syntax-highlighting-with-diff-like-syntax):
-
-  ```diff lang="js"
-    function thisIsJavaScript() {
-      // This entire block gets highlighted as JavaScript,
-      // and we can still add diff markers to it!
-  -   console.log('Old code to be removed')
-  +   console.log('New and shiny code!')
+    ```js {2-3}
+    function demo() {
+        // This line (#2) and the next one are highlighted
+        return "This is line #3 of this snippet";
     }
-  ```
+    ```
 
-  ````md
-  ```diff lang="js"
-    function thisIsJavaScript() {
-      // This entire block gets highlighted as JavaScript,
-      // and we can still add diff markers to it!
-  -   console.log('Old code to be removed')
-  +   console.log('New and shiny code!')
+    ````md
+    ```js {2-3}
+    function demo() {
+        // This line (#2) and the next one are highlighted
+        return "This is line #3 of this snippet";
     }
-  ```
-  ````
+    ```
+    ````
+
+-   [Mark selections of text using the `" "` marker or regular expressions](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-text-markers/README.md#marking-individual-text-inside-lines):
+
+    ```js "Individual terms" /Even.*supported/
+    // Individual terms can be highlighted, too
+    function demo() {
+        return "Even regular expressions are supported";
+    }
+    ```
+
+    ````md
+    ```js "Individual terms" /Even.*supported/
+    // Individual terms can be highlighted, too
+    function demo() {
+        return "Even regular expressions are supported";
+    }
+    ```
+    ````
+
+-   [Mark text or lines as inserted or deleted with `ins` or `del`](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-text-markers/README.md#selecting-marker-types-mark-ins-del):
+
+    ```js "return true;" ins="inserted" del="deleted"
+    function demo() {
+        console.log("These are inserted and deleted marker types");
+        // The return statement uses the default marker type
+        return true;
+    }
+    ```
+
+    ````md
+    ```js "return true;" ins="inserted" del="deleted"
+    function demo() {
+        console.log("These are inserted and deleted marker types");
+        // The return statement uses the default marker type
+        return true;
+    }
+    ```
+    ````
+
+-   [Combine syntax highlighting with `diff`-like syntax](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-text-markers/README.md#combining-syntax-highlighting-with-diff-like-syntax):
+
+    ```diff lang="js"
+      function thisIsJavaScript() {
+        // This entire block gets highlighted as JavaScript,
+        // and we can still add diff markers to it!
+    -   console.log('Old code to be removed')
+    +   console.log('New and shiny code!')
+      }
+    ```
+
+    ````md
+    ```diff lang="js"
+      function thisIsJavaScript() {
+        // This entire block gets highlighted as JavaScript,
+        // and we can still add diff markers to it!
+    -   console.log('Old code to be removed')
+    +   console.log('New and shiny code!')
+      }
+    ```
+    ````
 
 #### Frames and titles
 
@@ -323,43 +323,43 @@ Other languages display inside a code editor-style frame if they include a title
 
 A code block’s optional title can be set either with a `title="..."` attribute following the code block's opening backticks and language identifier, or with a file name comment in the first lines of the code.
 
-- [Add a file name tab with a comment](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-frames/README.md#adding-titles-open-file-tab-or-terminal-window-title)
+-   [Add a file name tab with a comment](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-frames/README.md#adding-titles-open-file-tab-or-terminal-window-title)
 
-  ```js
-  // my-test-file.js
-  console.log('Hello World!');
-  ```
+    ```js
+    // my-test-file.js
+    console.log("Hello World!");
+    ```
 
-  ````md
-  ```js
-  // my-test-file.js
-  console.log('Hello World!');
-  ```
-  ````
+    ````md
+    ```js
+    // my-test-file.js
+    console.log("Hello World!");
+    ```
+    ````
 
-- [Add a title to a Terminal window](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-frames/README.md#adding-titles-open-file-tab-or-terminal-window-title)
+-   [Add a title to a Terminal window](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-frames/README.md#adding-titles-open-file-tab-or-terminal-window-title)
 
-  ```bash title="Installing dependencies…"
-  npm install
-  ```
+    ```bash title="Installing dependencies…"
+    npm install
+    ```
 
-  ````md
-  ```bash title="Installing dependencies…"
-  npm install
-  ```
-  ````
+    ````md
+    ```bash title="Installing dependencies…"
+    npm install
+    ```
+    ````
 
-- [Disable window frames with `frame="none"`](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-frames/README.md#overriding-frame-types)
+-   [Disable window frames with `frame="none"`](https://github.com/expressive-code/expressive-code/blob/main/packages/%40expressive-code/plugin-frames/README.md#overriding-frame-types)
 
-  ```bash frame="none"
-  echo "This is not rendered as a terminal despite using the bash language"
-  ```
+    ```bash frame="none"
+    echo "This is not rendered as a terminal despite using the bash language"
+    ```
 
-  ````md
-  ```bash frame="none"
-  echo "This is not rendered as a terminal despite using the bash language"
-  ```
-  ````
+    ````md
+    ```bash frame="none"
+    echo "This is not rendered as a terminal despite using the bash language"
+    ```
+    ````
 
 ## Details
 
