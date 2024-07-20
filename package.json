@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "kiwihosting-docs",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0-SNAPSHOT",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
