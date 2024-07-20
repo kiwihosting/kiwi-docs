@@ -30,18 +30,18 @@ This guide will walk you through the process of fixing the "java.lang.NullPointe
 ### 3. Stop your server (if running)
 
 1. Press the "Stop" button on the top right of the panel.
-![Power](../../../../../../../public/errors/power-stop.png)
+![Power](/errors/power-stop.png)
 
 ### 4. Access the File Manager
 
 1. In the server management interface, navigate to the **File** tab.
 3. Delete the `ops.josn`, `usercache.yml`, and `whitelist.json` files
-![alt text](../../../../../../../public/errors/ops-usercache-whitelist.png)
+![alt text](/errors/ops-usercache-whitelist.png)
 ### 5. Start your server
 
 1. After making the necessary changes
 2. Go back to the server management interface and start the server.
-![Power](../../../../../../../public/errors/power-start.png)
+![Power](/errors/power-start.png)
 
 ## Conclusion
 

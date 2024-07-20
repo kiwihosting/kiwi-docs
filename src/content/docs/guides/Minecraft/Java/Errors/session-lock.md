@@ -30,20 +30,20 @@ This guide will walk you through the process of fixing the "net.Minecraft.server
 ### 3. Stop your server (if running)
 
 1. Press the "Stop" button on the top right of the panel.
-![Power](../../../../../../../public/errors/power-stop.png)
+![Power](/errors/power-stop.png)
 
 ### 4. Access the File Manager
 
 1. In the server management interface, navigate to the **File** tab.
 2. Locate the `world` folder in the root directory of your server files.
-![worlds](../../../../../../../public/errors/worlds.png)
+![worlds](/errors/worlds.png)
 3. Delete the `session.lock` file
-![alt text](../../../../../../../public/errors/sessionlock.png)
+![alt text](/errors/sessionlock.png)
 ### 5. Start your server
 
 1. After making the necessary changes
 2. Go back to the server management interface and start the server.
-![Power](../../../../../../../public/errors/power-start.png)
+![Power](/errors/power-start.png)
 
 ## Conclusion
 

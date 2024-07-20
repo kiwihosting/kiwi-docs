@@ -148,7 +148,7 @@ This guide is for Minecraft Version 1.21, but may work on older versions (should
 
 1. After making the necessary changes, save the `server.properties` file.
 2. Go back to the server management interface and restart the server to apply the new settings.
-![Power](../../../../../../../public/errors/power-restart.png)
+![Power](/errors/power-restart.png)
 
 ## Conclusion
 
