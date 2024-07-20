@@ -19,14 +19,11 @@ export default defineConfig({
         label: 'Guides',
         items: [{
           label: 'General',
-          items: [{
-            label: 'General',
-            collapsed: false,
-            autogenerate: {
-              directory: 'guides/General',
-              collapsed: true
-            }
-          }]
+          collapsed: false,
+          autogenerate: {
+            directory: 'guides/General',
+            collapsed: true
+          }
         }, {
           label: 'Minecraft',
           items: [{
