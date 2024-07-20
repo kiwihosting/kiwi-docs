@@ -9,7 +9,6 @@ export default defineConfig({
       plugins: [],
       title: 'KiwiHosting Guides',
       customCss: [
-        // Path to your Tailwind base styles:
         './src/tailwind.css',
       ],
       social: {
@@ -22,31 +21,23 @@ export default defineConfig({
           label: 'Minecraft',
           items: [{
             label: 'Java',
-            collapsed: true,
+            collapsed: false,
             autogenerate: {
               directory: 'guides/Minecraft/Java',
-              collapsed: true
+              collapsed: false
             }
           }, {
             label: 'Bedrock',
-            collapsed: true,
+            collapsed: false,
             autogenerate: {
               directory: 'guides/Minecraft/Bedrock',
-              collapsed: true
+              collapsed: false
             }
           }]
         }]
-      }, {
-        label: 'Reference',
-        collapsed: true,
-        autogenerate: {
-          directory: 'reference',
-          collapsed: true
-        }
       }]
     }),     
     tailwind({
-      // Disable the default base styles:
       applyBaseStyles: false,
     }),
   ],
