@@ -15,7 +15,7 @@ This guide will walk you through the process of fixing the "net.Minecraft.server
 -   A running Minecraft Java Edition server managed through Kiwi Hosting Panel.
 -   Basic understanding of server management.
 
-## Steps to Configure Server Properties
+## Steps to Fix Session Lock errors
 
 ### 1. Log in to the Kiwi Hosting Panel
 

@@ -20,6 +20,13 @@ export default defineConfig({
         items: [{
           label: 'Minecraft',
           items: [{
+            label: 'General',
+            collapsed: false,
+            autogenerate: {
+              directory: 'guides/General',
+              collapsed: true
+            }
+          }, {
             label: 'Java',
             collapsed: false,
             autogenerate: {
