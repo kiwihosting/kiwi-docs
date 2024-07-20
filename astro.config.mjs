@@ -51,7 +51,4 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
   ],
-  redirects: {
-    '/': '/home' // Redirect the root URL to /home
-  }
 });
