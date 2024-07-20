@@ -24,14 +24,14 @@ export default defineConfig({
             collapsed: false,
             autogenerate: {
               directory: 'guides/Minecraft/Java',
-              collapsed: false
+              collapsed: true
             }
           }, {
             label: 'Bedrock',
             collapsed: false,
             autogenerate: {
               directory: 'guides/Minecraft/Bedrock',
-              collapsed: false
+              collapsed: true
             }
           }]
         }]
