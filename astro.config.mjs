@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import tailwind from "@astrojs/tailwind";
+import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,12 +13,12 @@ export default defineConfig({
       ],
       social: {
         github: 'https://github.com/kiwihosting',
-		discord: 'https://discord.kiwihosting.net'
+        discord: 'https://discord.kiwihosting.net'
       },
       sidebar: [{
         label: 'Guides',
         items: [{
-          label: 'Minecraft',
+          label: 'General',
           items: [{
             label: 'General',
             collapsed: false,
@@ -26,7 +26,10 @@ export default defineConfig({
               directory: 'guides/General',
               collapsed: true
             }
-          }, {
+          }]
+        }, {
+          label: 'Minecraft',
+          items: [{
             label: 'Java',
             collapsed: false,
             autogenerate: {
@@ -43,7 +46,7 @@ export default defineConfig({
           }]
         }]
       }]
-    }),     
+    }),
     tailwind({
       applyBaseStyles: false,
     }),
