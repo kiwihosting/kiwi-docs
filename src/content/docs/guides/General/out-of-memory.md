@@ -22,12 +22,20 @@ kiwihosting@your-server~ Server marked as starting...
 
 ## Prerequisites
 
--   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
--   Access to the [Kiwi Hosting Billing Panel](https://billing.kiwihosting.net).
+- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+- Access to the [Kiwi Hosting Billing Panel](https://billing.kiwihosting.net).
 
-## Explination
+## Explanation
 
-Your server is out of memory, which causes it to crash. You will need to upgrade your plan to fix this issue.
+:::caution
+Your server is running out of memory, causing it to crash. To resolve this issue, you need to upgrade your plan.
+:::
+
+## Disclaimer
+
+:::note
+Upgrading your plan should fix the memory issue, but if the problem persists, further investigation may be needed to identify any underlying causes.
+:::
 
 ## Steps to Configure Server Properties
 
@@ -39,13 +47,13 @@ Your server is out of memory, which causes it to crash. You will need to upgrade
 ### 2. Navigate to Your Server
 
 1. From the Kiwi Hosting Panel dashboard, select the Minecraft server you want to configure.
-2. Click on the eye icon of your server to manage it's properties.
+2. Click on the eye icon of your server to manage its properties.
 
-### 3. Change the plan of your server
+### 3. Change the Plan of Your Server
 
-1. Go to the "Change Plan" button and select a higher memory/ram plan for your server.
+1. Go to the "Change Plan" button and select a higher memory/RAM plan for your server.
 
-### 4. Start your server
+### 4. Start Your Server
 
 1. Open your web browser and go to [gmp.kiwihosting.net](https://gmp.kiwihosting.net).
 2. Log in with your Kiwi Hosting Panel credentials.
@@ -55,4 +63,4 @@ Your server is out of memory, which causes it to crash. You will need to upgrade
 
 ## Conclusion
 
-By upgrading your plan, your server should not run out of memory if you chose the correct plan.
+By upgrading your plan, your server should not run out of memory if you have chosen the correct plan.
