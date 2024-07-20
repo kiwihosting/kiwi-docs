@@ -1,5 +1,5 @@
 ---
-title: Minecraft Server Properties
+title: Minecraft Java Server Properties
 description: A comprehensive guide to configuring server properties for Minecraft Java Edition using Kiwi Hosting Panel.
 ---
 
