@@ -27,15 +27,11 @@ kiwihosting@your-server~ Server marked as starting...
 
 ## Explanation
 
-:::caution
 Your server is running out of memory, causing it to crash. To resolve this issue, you need to upgrade your plan.
-:::
 
 ## Disclaimer
 
-:::note
 Upgrading your plan should fix the memory issue, but if the problem persists, further investigation may be needed to identify any underlying causes.
-:::
 
 ## Steps to Configure Server Properties
 
