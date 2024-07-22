@@ -96,7 +96,7 @@ This guide is for Minecraft Version 1.21, but may work on older versions (should
 - **max-tick-time**: The maximum number of milliseconds a single tick may take before the server watchdog stops the server with the message.
     - -1 - disable watchdog entirely.
 - **max-world-size**: This sets the maximum possible size in blocks, expressed as a radius, that the world border can obtain.
-- **motd**: This is the message that is displayed in the server list of the client, below the name.
+- **motd**: This is the message that is displayed in the server list of the client, below the name. Use [MOTD Creator](https://mctools.org/motd-creator) to easily create MOTDs.
 - **network-compression-threshold**: By default it allows packets that are n-1 bytes big to go normally, but a packet of n bytes or more gets compressed down.
     - -1 - disable compression entirely.
     - 0 - compress everything.
