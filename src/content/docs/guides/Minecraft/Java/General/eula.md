@@ -9,9 +9,13 @@ A comprehensive guide to accepting the EULA to start your brand new server.
 
 This guide will walk you through the process of accepting the Minecraft EULA.
 
-This guide is for 1.8 and higher. Older versions do not have EULA requirement but you should still read the [Minecraft EULA](https://www.minecraft.net/eula)
+This guide is for 1.8 and higher. Older versions do not have EULA requirement but you should still read the [Minecraft EULA](https://www.minecraft.net/eula).
 
 First read the [Minecraft EULA](https://www.minecraft.net/eula), then continue with this guide.
+
+:::note
+If you do not see the prompt to accept the Minecraft EULA, go [here](#steps-to-accept-the-eula-manual-setup). Otherwise go [here](#steps-to-accept-the-eula-easy-setup).
+:::
 
 ## Prerequisites
 
@@ -62,4 +66,4 @@ It is recommended to follow the Easy Setup, if you don't get the prompt, follow 
 
 ## Conclusion
 
-By customizing your `server.properties` file through Kiwi Hosting Panel, you can control various aspects of your Minecraft server's gameplay experience. Whether you're setting up a small private server or a large public one, these configurations can help you create the perfect environment for your players.
+By accepting the EULA, you can now successfully start your Minecraft server.
