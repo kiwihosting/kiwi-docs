@@ -19,7 +19,7 @@ This guide will walk you through the process of fixing the "net.Minecraft.server
 
 ### 1. Log in to the Kiwi Hosting Panel
 
-1. Open your web browser and go to [gmp.kiwihosting.net](https://gmp.kiwihosting.net).
+1. Open your web browser and go to the [KiwiHosting Panel](https://gmp.kiwihosting.net).
 2. Log in with your Kiwi Hosting Panel credentials.
 
 ### 2. Navigate to Your Server

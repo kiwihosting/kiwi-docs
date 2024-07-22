@@ -51,7 +51,7 @@ Upgrading your plan should fix the memory issue, but if the problem persists, fu
 
 ### 4. Start Your Server
 
-1. Open your web browser and go to [gmp.kiwihosting.net](https://gmp.kiwihosting.net).
+1. Open your web browser and go to the [KiwiHosting Panel](https://gmp.kiwihosting.net).
 2. Log in with your Kiwi Hosting Panel credentials.
 3. From the Kiwi Hosting Panel dashboard, select the Minecraft server you want to configure.
 4. Click on the server name to access its management page.

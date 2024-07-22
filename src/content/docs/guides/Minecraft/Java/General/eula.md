@@ -26,7 +26,7 @@ If you do not see the prompt to accept the Minecraft EULA, go [here](#steps-to-a
 
 ### 1. Log in to the Kiwi Hosting Panel
 
-1. Open your web browser and go to [gmp.kiwihosting.net](https://gmp.kiwihosting.net).
+1. Open your web browser and go to the [KiwiHosting Panel](https://gmp.kiwihosting.net).
 2. Log in with your Kiwi Hosting Panel credentials.
 
 ### 2. Navigate to Your Server
@@ -44,12 +44,12 @@ If you do not see the prompt to accept the Minecraft EULA, go [here](#steps-to-a
 ## Steps to Accept the EULA (Manual Setup)
 
 :::note
-It is recommended to follow the Easy Setup, if you don't get the prompt, follow this guide.
+It is recommended to follow the [Easy Setup](#steps-to-accept-the-eula-easy-setup), if you don't get the prompt, follow this guide.
 :::
 
 ### 1. Log in to the Kiwi Hosting Panel
 
-1. Open your web browser and go to [gmp.kiwihosting.net](https://gmp.kiwihosting.net).
+1. Open your web browser and go to the [KiwiHosting Panel](https://gmp.kiwihosting.net).
 2. Log in with your Kiwi Hosting Panel credentials.
 
 ### 2. Navigate to Your Server
