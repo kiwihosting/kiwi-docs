@@ -51,7 +51,7 @@ This guide will help you reset your Minecraft server to it's default settings & 
 9. Set "server jar file" to "server.jar".
 10. Set "docker image/java version" to "Java 21".
 11. Navigate to the **Settings** tab.
-12. Press the **Reinstall** button.
+12. Press the **Reinstall Server** button.
 ![Reinstall](/assets/tutorials/settings-reinstall.png)
 13. Start your server.
 ![Power](/assets/actions/power/start.png)
