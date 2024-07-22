@@ -11,7 +11,7 @@ This guide will walk you through the process of adding multiple worlds to a Mine
 ## Prerequisites
 
 - Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
-- A running Minecraft Java Edition server managed through Kiwi Hosting Panel (recommended using Paper).
+- A running Minecraft Java Edition server managed through Kiwi Hosting Panel, using Spigot at the minimum.
 - Basic understanding of server management.
 
 ## Steps to Add Multiple Worlds
