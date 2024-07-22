@@ -10,9 +10,9 @@ This guide will walk you through the process of adding multiple worlds to a Mine
 
 ## Prerequisites
 
--   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
--   A running Minecraft Java Edition server managed through Kiwi Hosting Panel (recommended using Paper).
--   Basic understanding of server management.
+- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+- A running Minecraft Java Edition server managed through Kiwi Hosting Panel (recommended using Paper).
+- Basic understanding of server management.
 
 ## Steps to Add Multiple Worlds
 
@@ -52,14 +52,14 @@ This guide will walk you through the process of adding multiple worlds to a Mine
 
 You can easily create worlds with the following commands:
 
-**Overworld Dimension**
-- `/mv create <worldname> NORMAL`
+- **Overworld Dimension**
+    - `/mv create <worldname> NORMAL`
 
-**Nether Dimension**
-- `/mv create <worldname> NETHER`
+- **Nether Dimension**
+    - `/mv create <worldname> NETHER`
 
-**End Dimension**
-- `/mv create <worldname> END`
+- **End Dimension**
+    - `/mv create <worldname> END`
 
 To use a specific seed, add `-s <seed>` to your command, example: `/mv create <worldname> NORMAL -s <seed>`.
 
@@ -67,14 +67,14 @@ To use a specific seed, add `-s <seed>` to your command, example: `/mv create <w
 
 You can import worlds by the following command
 
-**Overworld Dimension**
-- `/mv import <worldname> NORMAL`
+- **Overworld Dimension**
+    - `/mv import <worldname> NORMAL`
 
-**Nether Dimension**
-- `/mv import <worldname> NETHER`
+- **Nether Dimension**
+    - `/mv import <worldname> NETHER`
 
-**End Dimension**
-- `/mv import <worldname> END`
+- **End Dimension**
+    - `/mv import <worldname> END`
 
 Seeds will automatically be handled properly.
 
