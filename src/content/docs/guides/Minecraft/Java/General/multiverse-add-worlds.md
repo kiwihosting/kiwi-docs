@@ -41,7 +41,7 @@ This guide will walk you through the process of adding multiple worlds to a Mine
 1. Download Multiverse-Core from [here](https://github.com/Multiverse/Multiverse-Core/releases/latest)
 2. Upload the `multiverse-core-x.x.x.jar` file to your plugins folder
 
-### 5. Start your servr
+### 5. Start your server
 
 2. Go back to the server management interface and start the server to apply the new settings.
 ![Power](/assets/actions/power/start.png)
