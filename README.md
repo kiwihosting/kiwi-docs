@@ -6,11 +6,11 @@
 .
 ├── public/
 ├── src/
-│   ├── assets/
 │   ├── content/
 │   │   ├── docs/
 │   │   └── config.ts
-│   └── env.d.ts
+│   ├── env.d.ts
+│   └── tailwind.css
 ├── astro.config.mjs
 ├── package.json
 └── tsconfig.json
