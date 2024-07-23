@@ -17,7 +17,7 @@ This guide will help you reset your Minecraft server to it's default settings & 
 
 ### 1. Log in to the Kiwi Hosting Billing Panel
 
-1. Open your web browser and go to [billing.kiwihosting.net](https://billing.kiwihosting.net).
+1. Open your web browser and go to the [KiwiHosting Panel](https://gmp.kiwihosting.net).
 2. Log in with your Kiwi Hosting Billing Panel credentials.
 
 ### 2. Navigate to Your Server
