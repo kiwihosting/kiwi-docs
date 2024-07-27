@@ -19,8 +19,8 @@ If you do not see the prompt to accept the Minecraft EULA, go [here](#steps-to-a
 
 ## Prerequisites
 
-- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
-- A running Minecraft Java Edition server managed through Kiwi Hosting Panel.
+-   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+-   A running Minecraft Java Edition server managed through Kiwi Hosting Panel.
 
 ## Steps to Accept the EULA (Easy Setup)
 

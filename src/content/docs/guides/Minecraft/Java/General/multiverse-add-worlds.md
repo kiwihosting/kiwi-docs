@@ -2,6 +2,7 @@
 title: Minecraft Java Server With Multiple Worlds
 description: A comprehensive guide to adding multiple worlds to a Minecraft server.
 ---
+
 A comprehensive guide to adding multiple worlds to a Minecraft server.
 
 ## Introduction
@@ -10,9 +11,9 @@ This guide will walk you through the process of adding multiple worlds to a Mine
 
 ## Prerequisites
 
-- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
-- A running Minecraft Java Edition server managed through Kiwi Hosting Panel, using Spigot at the minimum.
-- Basic understanding of server management.
+-   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+-   A running Minecraft Java Edition server managed through Kiwi Hosting Panel, using Spigot at the minimum.
+-   Basic understanding of server management.
 
 ## Steps to Add Multiple Worlds
 
@@ -29,7 +30,7 @@ This guide will walk you through the process of adding multiple worlds to a Mine
 ### 3. Stop your server (if running)
 
 1. Press the "Stop" button on the top right of the panel.
-![Power](/assets/actions/power/stop.png)
+   ![Power](/assets/actions/power/stop.png)
 
 ### 4. Access the File Manager
 
@@ -44,7 +45,7 @@ This guide will walk you through the process of adding multiple worlds to a Mine
 ### 5. Start your server
 
 2. Go back to the server management interface and start the server to apply the new settings.
-![Power](/assets/actions/power/start.png)
+   ![Power](/assets/actions/power/start.png)
 
 ### 6. Connect to your server and run the following commands as provided
 
@@ -52,14 +53,16 @@ This guide will walk you through the process of adding multiple worlds to a Mine
 
 You can easily create worlds with the following commands:
 
-- **Overworld Dimension**
-    - `/mv create <worldname> NORMAL`
+-   **Overworld Dimension**
 
-- **Nether Dimension**
-    - `/mv create <worldname> NETHER`
+    -   `/mv create <worldname> NORMAL`
 
-- **End Dimension**
-    - `/mv create <worldname> END`
+-   **Nether Dimension**
+
+    -   `/mv create <worldname> NETHER`
+
+-   **End Dimension**
+    -   `/mv create <worldname> END`
 
 To use a specific seed, add `-s <seed>` to your command, example: `/mv create <worldname> NORMAL -s <seed>`.
 
@@ -67,14 +70,16 @@ To use a specific seed, add `-s <seed>` to your command, example: `/mv create <w
 
 You can import worlds by the following command
 
-- **Overworld Dimension**
-    - `/mv import <worldname> NORMAL`
+-   **Overworld Dimension**
 
-- **Nether Dimension**
-    - `/mv import <worldname> NETHER`
+    -   `/mv import <worldname> NORMAL`
 
-- **End Dimension**
-    - `/mv import <worldname> END`
+-   **Nether Dimension**
+
+    -   `/mv import <worldname> NETHER`
+
+-   **End Dimension**
+    -   `/mv import <worldname> END`
 
 Seeds will automatically be handled properly.
 

@@ -11,9 +11,9 @@ This guide will walk you through the process of fixing the "java.lang.NullPointe
 
 ## Prerequisites
 
-- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
-- A running Minecraft Java Edition server managed through Kiwi Hosting Panel.
-- Basic understanding of server management.
+-   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+-   A running Minecraft Java Edition server managed through Kiwi Hosting Panel.
+-   Basic understanding of server management.
 
 ## Steps to Fix Session Lock errors
 
@@ -30,18 +30,19 @@ This guide will walk you through the process of fixing the "java.lang.NullPointe
 ### 3. Stop your server (if running)
 
 1. Press the "Stop" button on the top right of the panel.
-![Power](/assets/actions/power/stop.png)
+   ![Power](/assets/actions/power/stop.png)
 
 ### 4. Access the File Manager
 
 1. In the server management interface, navigate to the **File** tab.
-3. Delete the `ops.josn`, `usercache.yml`, and `whitelist.json` files
-![alt text](/assets/tutorials/ops-usercache-whitelist.png)
+2. Delete the `ops.josn`, `usercache.yml`, and `whitelist.json` files
+   ![alt text](/assets/tutorials/ops-usercache-whitelist.png)
+
 ### 5. Start your server
 
 1. After making the necessary changes
 2. Go back to the server management interface and start the server.
-![Power](/assets/actions/power/start.png)
+   ![Power](/assets/actions/power/start.png)
 
 ## Conclusion
 

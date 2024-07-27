@@ -11,7 +11,7 @@ This guide will help you reset your Minecraft server to it's default settings & 
 
 ## Prerequisites
 
-- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+-   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
 
 ## Steps to Reset your Minecraft server
 
@@ -37,14 +37,14 @@ This guide will help you reset your Minecraft server to it's default settings & 
 #### Reader Guide
 
 1. Stop your server
-![Power](/assets/actions/power/stop.png)
+   ![Power](/assets/actions/power/stop.png)
 2. In the server management interface, navigate to the **File** tab.
 3. Delete all files with the checkbox in the top left of the file manager
-![Unchecked](/assets/tutorials/filemanager-checkbox-unchecked.png)
+   ![Unchecked](/assets/tutorials/filemanager-checkbox-unchecked.png)
 4. Turn it to checked state
-![Checked](/assets/tutorials/filemanager-checkbox-checked.png)
+   ![Checked](/assets/tutorials/filemanager-checkbox-checked.png)
 5. Delete the files
-![Delete](/assets/tutorials/filemanager-delete.png)
+   ![Delete](/assets/tutorials/filemanager-delete.png)
 6. Navigate to the **Startup** tab.
 7. Set "build number" to "latest".
 8. Set "minecraft version" to "latest".
@@ -52,9 +52,9 @@ This guide will help you reset your Minecraft server to it's default settings & 
 10. Set "docker image/java version" to "Java 21".
 11. Navigate to the **Settings** tab.
 12. Press the **Reinstall Server** button.
-![Reinstall](/assets/tutorials/settings-reinstall.png)
+    ![Reinstall](/assets/tutorials/settings-reinstall.png)
 13. Start your server.
-![Power](/assets/actions/power/start.png)
+    ![Power](/assets/actions/power/start.png)
 
 ## Conclusion
 

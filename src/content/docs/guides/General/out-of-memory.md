@@ -8,6 +8,7 @@ A comprehensive guide to fixing an out of memory error
 ## Introduction
 
 This guide will help you fix the following error:
+
 ```
 [Pterodactyl Daemon]: ---------- Detected server process in a crashed state! ----------
 [Pterodactyl Daemon]: Exit code: 1
@@ -22,8 +23,8 @@ kiwihosting@your-server~ Server marked as starting...
 
 ## Prerequisites
 
-- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
-- Access to the [Kiwi Hosting Billing Panel](https://billing.kiwihosting.net).
+-   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+-   Access to the [Kiwi Hosting Billing Panel](https://billing.kiwihosting.net).
 
 ## Explanation
 
