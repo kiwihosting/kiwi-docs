@@ -1,4 +1,6 @@
-# Kiwi Docs
+# Kiwihosting Docs
+
+Website for the [Kiwihosting Docs](https://docs.kiwihosting.net/)
 
 ## 🚀 Project Structure
 
