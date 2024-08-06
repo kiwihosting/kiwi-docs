@@ -45,7 +45,7 @@ This guide will help you allow users to access your server on the [Kiwi Hosting 
 
 :::note
 
-#### If the user you are sharing doesn't recive a password setup or they lost their password, they can get a new one at the[KiwiHosting Panel Password Reset](https://gmp.kiwihosting.net/auth/password) page.
+#### If the user you are sharing doesn't recive a password setup or they lost their password, they can get a new one at the [KiwiHosting Panel Password Reset](https://gmp.kiwihosting.net/auth/password) page.
 
 :::
 
