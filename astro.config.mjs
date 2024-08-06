@@ -12,6 +12,9 @@ export default defineConfig({
             social: {
                 github: "https://github.com/kiwihosting",
                 discord: "https://discord.kiwihosting.net",
+                youtube: "https://www.youtube.com/@KiwiHosting",
+                instagram: "https://www.instagram.com/kiwihosting/",
+                email: "mailto:info@kiwihosting.net"
             },
             sidebar: [
                 {
