@@ -11,9 +11,9 @@ To restrict people from leaving a certain area, with the best looks, you can use
 
 ## Prerequisites
 
--   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
--   A running Minecraft Java Edition server managed through Kiwi Hosting Panel, using Spigot at the minimum.
--   Basic understanding of server management.
+- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+- A running Minecraft Java Edition server managed through Kiwi Hosting Panel, using Spigot at the minimum.
+- Basic understanding of server management.
 
 ## Steps to add a world border to a Minecraft world
 

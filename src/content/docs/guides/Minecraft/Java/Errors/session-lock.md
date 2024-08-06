@@ -11,9 +11,9 @@ This guide will walk you through the process of fixing the "net.Minecraft.server
 
 ## Prerequisites
 
--   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
--   A running Minecraft Java Edition server managed through Kiwi Hosting Panel.
--   Basic understanding of server management.
+- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+- A running Minecraft Java Edition server managed through Kiwi Hosting Panel.
+- Basic understanding of server management.
 
 ## Steps to Fix Session Lock errors
 

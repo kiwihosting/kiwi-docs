@@ -11,7 +11,7 @@ This guide will help you reset your Minecraft server to it's default settings & 
 
 ## Prerequisites
 
--   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
 
 ## Steps to Reset your Minecraft server
 

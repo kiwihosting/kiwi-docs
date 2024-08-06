@@ -11,9 +11,9 @@ This guide will walk you through the process of resetting worlds to a Minecraft 
 
 ## Prerequisites
 
--   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
--   A running Minecraft Java Edition server managed through Kiwi Hosting Panel, using Spigot at the minimum.
--   Basic understanding of server management.
+- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+- A running Minecraft Java Edition server managed through Kiwi Hosting Panel, using Spigot at the minimum.
+- Basic understanding of server management.
 
 ## Steps to Add Multiple Worlds
 

@@ -20,10 +20,10 @@ ViaVersion and it's other plugins are
 
 ## Prerequisites
 
--   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
--   A running Minecraft Java Edition server managed through Kiwi Hosting Panel, using Spigot at the minimum.
--   Basic understanding of server management.
--   Server running Spigot, Paper, or Purpur and similar server software.
+- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+- A running Minecraft Java Edition server managed through Kiwi Hosting Panel, using Spigot at the minimum.
+- Basic understanding of server management.
+- Server running Spigot, Paper, or Purpur and similar server software.
 
 ## Steps to add ViaVersion (and other ones you want)
 

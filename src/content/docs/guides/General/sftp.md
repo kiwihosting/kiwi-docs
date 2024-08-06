@@ -11,7 +11,7 @@ This guide will help you login to your server and access it's files from your co
 
 ## Prerequisites
 
--   An account on the [Kiwi Hosting Management Panel](https://gmp.kiwihosting.net).
+- An account on the [Kiwi Hosting Management Panel](https://gmp.kiwihosting.net).
 
 ## Steps to logging into SFTP
 

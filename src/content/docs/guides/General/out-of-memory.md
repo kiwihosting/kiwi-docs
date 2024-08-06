@@ -18,8 +18,8 @@ This guide will help you fix the following error:
 
 ## Prerequisites
 
--   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
--   Access to the [Kiwi Hosting Billing Panel](https://billing.kiwihosting.net).
+- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+- Access to the [Kiwi Hosting Billing Panel](https://billing.kiwihosting.net).
 
 ## Explanation
 

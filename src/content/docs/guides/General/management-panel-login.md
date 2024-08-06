@@ -11,7 +11,7 @@ This guide will help you login to the [Kiwi Hosting Panel](https://gmp.kiwihosti
 
 ## Prerequisites
 
--   An account on the [Kiwi Hosting Billing Panel](https://billing.kiwihosting.net).
+- An account on the [Kiwi Hosting Billing Panel](https://gmp.kiwihosting.net).
 
 ## Steps to login to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net)
 

@@ -13,10 +13,10 @@ This guide is for Minecraft Bedrock Edition Version 1.21 but may work on older v
 
 ## Prerequisites
 
--   Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
--   A running Minecraft Bedrock Edition server managed through Kiwi Hosting Panel.
--   Basic understanding of server management.
--   The player you want to op must be online on the server.
+- Access to the [Kiwi Hosting Panel](https://gmp.kiwihosting.net).
+- A running Minecraft Bedrock Edition server managed through Kiwi Hosting Panel.
+- Basic understanding of server management.
+- The player you want to op must be online on the server.
 
 ## Steps to Give a Player Operator Status
 
@@ -48,10 +48,10 @@ The player you want to op must be online on the server.
 :::
 
 1. In the console, type the following command to give a player operator status:
-    ```
-    op <playername>
-    ```
-    Replace `<playername>` with the username of the player you want to make an operator.
+   ```
+   op <playername>
+   ```
+   Replace `<playername>` with the username of the player you want to make an operator.
 
 ![Command](/assets/tutorials/bedrock/op.png)
 ![Command Results](/assets/tutorials/bedrock/opr.png)
