@@ -12,7 +12,7 @@ This guide will help you fix the following error:
 ```
 [Pterodactyl Daemon]: ---------- Detected server process in a crashed state! ----------
 [Pterodactyl Daemon]: Exit code: 1
-[Pterodactyl Daemon]: Out of memory: false
+[Pterodactyl Daemon]: Out of memory: true
 [Pterodactyl Daemon]: Aborting automatic restart, last crash occurred less than 60 seconds ago.
 ```
 
